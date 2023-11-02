@@ -21,7 +21,7 @@ def choose_options():
         usser = input('Selecciona piedra, papel o tijera?  -->')
         print('************************************************')
     computador = random.choice(variables)
-    print("Usted ha seleecionado {} ".format(usser))
+    print("Usted ha selecionado {} ".format(usser))
     print("Computador ha seleecionado {} ".format(computador))
     return usser, computador
 
